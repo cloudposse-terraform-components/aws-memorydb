@@ -5,3 +5,4 @@ repository:
   description: This component provisions an AWS MemoryDB cluster
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
+
