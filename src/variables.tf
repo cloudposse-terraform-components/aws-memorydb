@@ -89,13 +89,6 @@ variable "admin_username" {
   nullable    = false
 }
 
-variable "ssm_kms_key_id" {
-  description = "The KMS key ID to use for SSM parameter encryption. If not specified, the default key will be used."
-  type        = string
-  default     = null
-  nullable    = true
-}
-
 variable "ssm_parameter_name" {
   description = "The name of the SSM parameter to store the password in. If not specified, the password will be stored in `/{context.id}/admin_password`"
   type        = string
